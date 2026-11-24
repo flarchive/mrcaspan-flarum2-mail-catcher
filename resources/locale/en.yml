@@ -1,0 +1,21 @@
+mrcaspan-flarum2-mail-catcher:
+  admin:
+    intro: Every email the forum sends is saved here instead of being delivered. Nothing leaves the server.
+    not_catching: 'Emails are <b>not</b> being caught: the mail driver is "{driver}". Go to <a>Email settings</a> and set Mail Driver to <b>database</b>.'
+    refresh_button: Refresh
+    delete_all_button: Delete all
+    delete_all_confirm: "{count, plural, one {Delete # caught email?} other {Delete all # caught emails?}}"
+    count: "{count, plural, one {# email} other {# emails}}"
+    empty: No emails caught yet.
+    pick_one: Pick an email on the left to read it.
+    no_subject: (no subject)
+    empty_body: (empty)
+    delete_button: Delete
+    from_label: From
+    to_label: To
+    date_label: Date
+    tab_html: HTML
+    tab_text: Text
+    tab_raw: Raw
+    show_dark: Dark
+    show_light: Light

@@ -1,0 +1,45 @@
+{
+  "name": "mrcaspan/flarum2-mail-catcher",
+  "description": "Catch every outgoing email in the database instead of sending it, and read or delete them from the admin panel. For Flarum 2.0 test and staging sites.",
+  "keywords": [
+    "flarum",
+    "flarum2",
+    "extension",
+    "mail",
+    "email",
+    "testing",
+    "staging",
+    "mail catcher"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MrCaspan",
+      "homepage": "https://github.com/MrCaspan"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/MrCaspan/flarum2-mail-catcher/issues",
+    "source": "https://github.com/MrCaspan/flarum2-mail-catcher"
+  },
+  "require": {
+    "flarum/core": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MrCaspan\\MailCatcher\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Mail Catcher",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-inbox",
+        "backgroundColor": "#D80621",
+        "color": "#fff"
+      }
+    }
+  }
+}
