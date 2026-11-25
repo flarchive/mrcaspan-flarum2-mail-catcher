@@ -1,0 +1,68 @@
+mrcaspan-flarum2-mail-catcher:
+  admin:
+    mode_label: Mode
+    mode_off: "Off"
+    mode_catch: Catch
+    mode_log: Log
+    days: "{count, plural, one {# day} other {# days}}"
+    help_off: Email is being delivered as normal and nothing is being logged here.
+    help_catch: No email is currently being delivered, but it is being captured here.
+    help_log: "Email is still being delivered as normal, but each email will be logged here. Logging will run until {date}."
+    mode_forward: Forward
+    help_forward: "All email is being redirected to {email}. The original recipients are not receiving it, and nothing is being logged here."
+    forward_modal_title: Turn on Forward mode?
+    forward_modal_text: If you enable Forward mode, every email sent by the system will be redirected to the address below instead of its original recipient. Nothing is logged here.
+    forward_modal_settings: Your mail driver and SMTP settings are not changed. You can switch this off at any time to allow email to flow as normal again.
+    forward_modal_warning: PLEASE NOTE NO MEMBER WILL RECEIVE ANY EMAIL FROM THIS FORUM WHILE THIS IS ON.
+    forward_modal_to_label: Forward all email to
+    forward_modal_confirm: Turn on Forward
+    log_modal_title: Turn on Log mode?
+    log_modal_text: If you enable Log mode on Mail Catcher, all email will still be delivered to its preferred destination, but a copy will be logged here.
+    log_modal_space: Leaving this on for a long time can use a lot of space in the database, so we suggest you only turn it on for a short period.
+    log_modal_days_label: Run for
+    log_modal_confirm: Turn on Log
+    catch_modal_title: Turn on Catch mode?
+    catch_modal_text: If you enable this feature, Mail Catcher will intercept all email sent by the system and log it here.
+    catch_modal_settings: Your mail driver and SMTP settings are not changed. You can switch this off at any time to allow email to flow again.
+    catch_modal_warning: PLEASE NOTE THIS STOPS ALL EMAIL FROM BEING SENT FROM THIS FORUM.
+    catch_modal_confirm: Turn on Catch
+    refresh_button: Refresh
+    delete_all_button: Delete all
+    delete_all_confirm: "{count, plural, one {Delete # email?} other {Delete all # emails?}}"
+    count: "{count, plural, one {# email} other {# emails}}"
+    stat_sent: "{count} sent"
+    stat_failed: "{count} failed"
+    stat_caught: "{count} caught"
+    status_sent: Sent
+    status_failed: Failed
+    status_caught: Caught
+    empty: No emails yet.
+    pick_one: Pick an email on the left to read it.
+    no_subject: (no subject)
+    empty_body: (empty)
+    delete_button: Delete
+    release_button: Release
+    release_modal_title: Release this email?
+    release_modal_text: "Are you sure you want to release this email to {email}?"
+    release_modal_text_other: "Are you sure you want to send this email to {email}? The original recipient will not get it."
+    release_other_label: Send to a different address instead (optional)
+    release_other_placeholder: name@example.com
+    release_modal_confirm: Release
+    released: The email was released.
+    release_failed: The email could not be sent. See the Delivery tab for details.
+    from_label: From
+    to_label: To
+    date_label: Date
+    status_label: Status
+    transport_label: Sent with
+    message_id_label: Message ID
+    duration_label: Time taken
+    duration: "{ms} ms"
+    debug_label: Server conversation
+    no_debug: (none recorded)
+    tab_html: HTML
+    tab_text: Text
+    tab_raw: Raw
+    tab_delivery: Delivery
+    show_dark: Dark
+    show_light: Light

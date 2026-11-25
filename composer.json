@@ -1,0 +1,45 @@
+{
+  "name": "mrcaspan/flarum2-mail-catcher",
+  "description": "Catch, log or forward the emails your Flarum 2.0 forum sends: catch them on test sites, log them while they are delivered on live sites to diagnose problems, or redirect them all to one address. Read, release and delete them from the admin panel.",
+  "keywords": [
+    "flarum",
+    "flarum2",
+    "extension",
+    "mail",
+    "email",
+    "testing",
+    "staging",
+    "mail catcher"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MrCaspan",
+      "homepage": "https://github.com/MrCaspan"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/MrCaspan/flarum2-mail-catcher/issues",
+    "source": "https://github.com/MrCaspan/flarum2-mail-catcher"
+  },
+  "require": {
+    "flarum/core": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MrCaspan\\MailCatcher\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Mail Catcher",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-inbox",
+        "backgroundColor": "#D80621",
+        "color": "#fff"
+      }
+    }
+  }
+}
