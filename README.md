@@ -2,13 +2,16 @@
 
 > **Read-only archive of released versions of mrcaspan/flarum2-mail-catcher.** Not for installation: use [Packagist](https://packagist.org/packages/mrcaspan/flarum2-mail-catcher) or the [upstream repository](https://github.com/MrCaspan/flarum2-mail-catcher).
 
-**0** versions archived · Latest: [`v1.3.0`](https://github.com/flarchive/mrcaspan-flarum2-mail-catcher/tree/archive/v1.3.0) · License: `MIT` · Flarum: `^2.0`
+**4** versions archived · Latest: [`v1.3.0`](https://github.com/flarchive/mrcaspan-flarum2-mail-catcher/tree/archive/v1.3.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-11-24 | `^2.0` | [Browse](https://github.com/flarchive/mrcaspan-flarum2-mail-catcher/tree/archive/v1.0.0) |
+| `v1.1.0` | 2026-11-24 | `^2.0` | [Browse](https://github.com/flarchive/mrcaspan-flarum2-mail-catcher/tree/archive/v1.1.0) |
+| `v1.2.0` | 2026-11-25 | `^2.0` | [Browse](https://github.com/flarchive/mrcaspan-flarum2-mail-catcher/tree/archive/v1.2.0) |
+| `v1.3.0` | 2026-11-25 | `^2.0` | [Browse](https://github.com/flarchive/mrcaspan-flarum2-mail-catcher/tree/archive/v1.3.0) |
 
 Catalog entry: [packages/mrcaspan-flarum2-mail-catcher.json](https://github.com/flarchive/archive-index/blob/main/packages/mrcaspan-flarum2-mail-catcher.json)
 
